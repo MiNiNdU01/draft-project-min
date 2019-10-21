@@ -28,6 +28,7 @@ namespace Science_Day_Quiz
                 Microsoft.Office.Interop.Excel.Worksheet x = excel.ActiveSheet as Microsoft.Office.Interop.Excel.Worksheet;
 
                 x.Range["A2"].Value = teamA.ToString();
+                null value for ggg
                 //x.Range["C2"].Value = "N/A";
                 //x.Range["D2"].Value = "N/A";
                 //x.Range["c2"].Value = "how are you";
